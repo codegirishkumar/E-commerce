@@ -1,0 +1,32 @@
+*{
+    background-color: rgb(255, 255, 255);
+   font-family: 'Courier New', Courier, monospace;
+}
+.main{
+    border: 2px solid black;
+    height: 600px;
+    width: 100%;
+}
+.left{
+    border: 2px solid black;
+    height: 200px;
+    width: 10rem;
+}
+.right{
+   border: 2px solid black;
+   height: 100px;
+   width: 50rem;
+   flex-direction: column;
+   display: flex;
+   margin-left: 600px;
+   margin-bottom: 100px;
+
+
+}
+.down{
+    border: 2px solid black;
+    height: 40px;
+    width: 100px;
+    padding-top: 200px;
+
+}
